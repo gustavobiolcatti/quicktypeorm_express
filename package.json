@@ -1,0 +1,22 @@
+{
+   "name": "quicktypeorm",
+   "version": "0.0.1",
+   "description": "Awesome project developed with TypeORM.",
+   "devDependencies": {
+      "@types/express": "^4.17.13",
+      "@types/node": "^16.11.10",
+      "nodemon": "^2.0.19",
+      "ts-node": "^10.7.0",
+      "typescript": "4.5.2"
+   },
+   "dependencies": {
+      "express": "^4.18.1",
+      "pg": "^8.7.3",
+      "reflect-metadata": "^0.1.13",
+      "typeorm": "0.3.7"
+   },
+   "scripts": {
+      "start": "ts-node src/server.ts",
+      "typeorm": "typeorm-ts-node-commonjs"
+   }
+}
